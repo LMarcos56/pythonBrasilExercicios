@@ -7,3 +7,12 @@ for i in range(0, 5):
         maior = numero
 
 print 'O maior numero que voce digitou e', maior
+
+# Obrigado pelas soluções, tem me ajudado bastante!! 
+# A minha versão dessa solução ficou assm:
+num = []
+
+for i in range(5):
+    num.append(int(input('Numaros: ')))
+    numero = sorted(num)
+print(numero[-1])
